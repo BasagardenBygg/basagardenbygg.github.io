@@ -7959,7 +7959,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .text-reset {
@@ -11504,20 +11504,24 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: white;
+    /*background-color: transparent;*/
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+   /* color: rgba(255, 255, 255, 0.5);*/
+    color: #000;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    /*color: rgba(255, 255, 255, 0.5);*/
+    color: #000;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    /*color: rgba(255, 255, 255, 0.75);*/
+    color: rgba(253, 189, 3, 0.65);
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11562,7 +11566,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(57, 32, 26, 0.7) 95%, #cfa3a3 100%), url("../assets/img/bassagarden1.jpg");
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(203, 163, 163, 0.7) 95%, #cfa3a3 100%), url("../assets/img/bassagarden1.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11573,7 +11578,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11594,7 +11599,7 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
+    font-size: 5.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
@@ -11606,7 +11611,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(248, 249, 250, 0.9) 75%, rgba(248, 249, 250, 0.8) 100%);
+  background: linear-gradient(to bottom, #cfa3a3 0%, rgba(250, 250, 250, 0.9) 75%, rgba(248, 249, 250, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
